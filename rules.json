@@ -1,0 +1,15 @@
+{
+  "_note": "Sample rules only. Replace with your own policy locally. Never commit real company names, bank lists or internal thresholds to a public repository.",
+  "company_name": "Example Energy Co.",
+  "beneficiary_name": "Example Energy Co. - Branch Office",
+  "currency": "USD",
+  "tender_number_example": "ABC-CON/123",
+  "min_validity_days": 240,
+  "validity_tolerance_days": 14,
+  "amount_tiers_usd": [5000, 10000, 50000, 100000, 250000, 500000, 1000000],
+  "default_amount_usd": 100000,
+  "blacklisted_banks": [
+    "Example Blacklisted Bank A",
+    "Example Blacklisted Bank B"
+  ]
+}
